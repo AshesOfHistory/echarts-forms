@@ -1,14 +1,20 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <RandomExcel></RandomExcel>
+  </div>
+  
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import RandomExcel from './components/randomExcel'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    RandomExcel
   }
 }
 </script>
