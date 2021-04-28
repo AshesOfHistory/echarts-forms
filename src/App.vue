@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import RandomExcel from './components/randomExcel'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    // HelloWorld,
     RandomExcel
   }
 }
